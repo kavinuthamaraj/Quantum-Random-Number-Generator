@@ -19,47 +19,32 @@ Ensure you have the following installed:
 To install dependencies, run:
 pip install qiskit matplotlib
 
-## 🚀 How to Run
 
-1. Clone this repository:
+## 📜 Code Explanation
 
-  git clone https://github.com/yourusername/Quantum-RNG.git
-  cd Quantum-RNG
+1. Quantum Circuit Creation:
 
-2. Run the script:
-  python3 quantum_random.py
+- A 3-qubit, 3-classical-bit circuit is created.
+- Each qubit is placed into superposition using Hadamard gates.
 
-3. View the histogram output showing the random numbers generated.
+2. Measurement: The qubits are measured and converted into binary numbers.
 
-📜 Code Explanation
+3. Execution: The circuit runs on the Qiskit Aer simulator.
 
-Quantum Circuit Creation:
+4. Visualization: The results are plotted using a histogram.
 
-A 3-qubit, 3-classical-bit circuit is created.
-
-Each qubit is placed into superposition using Hadamard gates.
-
-Measurement: The qubits are measured and converted into binary numbers.
-
-Execution: The circuit runs on the Qiskit Aer simulator.
-
-Visualization: The results are plotted using a histogram.
-
-📊 Sample Output
+## 📊 Sample Output
 
 The output histogram will look something like this:
 
-Quantum Random Number Generator Results: {'000': 120, '001': 138, '010': 126, ...}
 
-🏗️ Future Enhancements
+## 🏗️ Future Enhancements
 
-Increase the number of qubits for higher-bit random numbers.
+- Increase the number of qubits for higher-bit random numbers.
+- Implement a GUI for better user interaction.
+- Use a real quantum computer instead of a simulator.
 
-Implement a GUI for better user interaction.
 
-Use a real quantum computer instead of a simulator.
-
-📜 License
-
+## 📜 License
 This project is licensed under the MIT License.
 
