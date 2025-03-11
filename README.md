@@ -9,18 +9,14 @@ This project implements a Quantum Random Number Generator (QRNG) using Qiskit. I
 - Runs on the Qiskit Aer simulator.
 - Displays a histogram of the generated numbers.
 
-🛠️ Requirements
+## 🛠️ Requirements
 
 Ensure you have the following installed:
-
-Python (>=3.8)
-
-Qiskit (>=1.0)
-
-Matplotlib (for visualization)
+- Python (>=3.8)
+- Qiskit (>=1.0)
+- Matplotlib (for visualization)
 
 To install dependencies, run:
-
 pip install qiskit matplotlib
 
 🚀 How to Run
