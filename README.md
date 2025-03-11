@@ -33,10 +33,14 @@ pip install qiskit matplotlib
 
 4. Visualization: The results are plotted using a histogram.
 
-## 📊 Sample Output
+## 📊 Output
 
 ![Quantum Random Output](quantum_histogram.png)
 
+## 🔢 Entropy Calculation
+To verify randomness, we calculated the **Shannon entropy** of the generated numbers:
+
+![Quantum Random Output](entropy_calculation.png)
 
 ## 🏗️ Future Enhancements
 
