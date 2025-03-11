@@ -1,4 +1,3 @@
-
 #Import necessary libraries
 from qiskit import QuantumCircuit
 from qiskit_aer import Aer
