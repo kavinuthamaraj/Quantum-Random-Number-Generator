@@ -1,16 +1,13 @@
-#Quantum Random Number Generator
+# Quantum Random Number Generator
 
 This project implements a Quantum Random Number Generator (QRNG) using Qiskit. It utilizes quantum superposition to generate truly random numbers based on quantum mechanics.
 
-📌 Features
+## 📌 Features
 
-Uses a 3-qubit quantum circuit to generate random 3-bit numbers.
-
-Uses Hadamard gates to create equal probability distributions.
-
-Runs on the Qiskit Aer simulator.
-
-Displays a histogram of the generated numbers.
+- Uses a 3-qubit quantum circuit to generate random 3-bit numbers.
+- Uses Hadamard gates to create equal probability distributions.
+- Runs on the Qiskit Aer simulator.
+- Displays a histogram of the generated numbers.
 
 🛠️ Requirements
 
