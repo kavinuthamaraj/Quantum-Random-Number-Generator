@@ -19,18 +19,17 @@ Ensure you have the following installed:
 To install dependencies, run:
 pip install qiskit matplotlib
 
-🚀 How to Run
+## 🚀 How to Run
 
-Clone this repository:
+1. Clone this repository:
 
-git clone https://github.com/yourusername/Quantum-RNG.git
-cd Quantum-RNG
+  git clone https://github.com/yourusername/Quantum-RNG.git
+  cd Quantum-RNG
 
-Run the script:
+2. Run the script:
+  python3 quantum_random.py
 
-python3 quantum_random.py
-
-View the histogram output showing the random numbers generated.
+3. View the histogram output showing the random numbers generated.
 
 📜 Code Explanation
 
