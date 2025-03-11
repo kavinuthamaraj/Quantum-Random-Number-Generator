@@ -35,7 +35,7 @@ pip install qiskit matplotlib
 
 ## 📊 Sample Output
 
-The output histogram will look something like this:
+![Quantum Random Output](quantum_histogram.png)
 
 
 ## 🏗️ Future Enhancements
