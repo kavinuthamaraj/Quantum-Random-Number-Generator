@@ -35,18 +35,43 @@ pip install qiskit matplotlib
 
 ## 📊 Output
 
-![Quantum Random Output](quantum_histogram.png)
+![Quantum Random Output](quant_histogram.png)
+
+## 🔌 Circuit
+![Quantum Circuit](gate_circuit.png)
+
+
+## 📊 IBM Quantum Lab Simulator - Probability and Q-Sphere
+These screenshots show the circuit and Q-sphere visualizations from the IBM Quantum Lab Simulator, where different qubit states were observed:
+
+- First Screenshot: All 8 states (000 to 111) appeared with roughly equal probability.
+  ![Quantum Lab Simulator](IBM%20QLB1.png)
+
+- Second Screenshot: The states |111⟩ and |110⟩ dominated with ~0.5 probability each.
+  ![Quantum Lab Simulator](IBM%20QLB2.png)
+  
+- Third Screenshot: Four states had balanced probabilities, demonstrating controlled state variations.
+  ![Quantum Lab Simulator](IBM%20QLB3.png)
+
 
 ## 🔢 Entropy Calculation
 To verify randomness, we calculated the **Shannon entropy** of the generated numbers:
 
-![Quantum Random Output](entropy_calculation.png)
+![Quantum Random Output](entropy_result.png)
 
 ## 🏗️ Future Enhancements
 
 - Increase the number of qubits for higher-bit random numbers.
 - Implement a GUI for better user interaction.
 - Use a real quantum computer instead of a simulator.
+
+## 🖥️ IBM's Quantum Hardware
+
+- All the above simulations were run on Qiskit Aer Simulator
+- They can also be tested on IBM real time online quantum hardware
+- 11 are currently online, users can access it using IBM QUANTUM LAB
+
+![Online QPUs](online_qpus.png)
 
 
 ## 📜 License
