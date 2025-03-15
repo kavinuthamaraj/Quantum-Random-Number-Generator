@@ -16,7 +16,7 @@ qc.h(range(3))
 # Measuring qubits
 qc.measure(range(3), range(3))
 
-# Show Quantum Circuit (Fancy Visualization)
+# Show Quantum Circuit 
 qc.draw("mpl")  
 plt.show()
 
